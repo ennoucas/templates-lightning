@@ -1,3 +1,14 @@
 <aura:component>
-  TEST VUE APP
+  <h3>TEST COMPONENT VUE</h3>
+  <ltng:require 
+    styles="{!$Resource.dist+'/static/css/app.css'}"
+    scripts="{!join(',',
+      $Resource.dist + '/static/js/manifest.js',
+      $Resource.dist + '/static/js/vendor.js',
+      $Resource.dist + '/static/js/app.js')
+    }"
+    afterScriptsLoaded="{!c.doInit}" 
+  />
+
+  <div id="app"></div>
 </aura:component>

@@ -1,5 +1,4 @@
 <aura:component>
-  <h3>TEST COMPONENT VUE</h3>
   <ltng:require 
     styles="{!$Resource.dist+'/static/css/app.css'}"
     scripts="{!join(',',

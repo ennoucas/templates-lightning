@@ -1,4 +1,4 @@
-# test-webpack-lightning
+# template-vue-lightning
 
 > A Vue.js project
 

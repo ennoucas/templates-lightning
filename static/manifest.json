@@ -1,6 +1,6 @@
 {
-  "name": "test-webpack-lightning",
-  "short_name": "test-webpack-lightning",
+  "name": "template-vue-lightning",
+  "short_name": "template-vue-lightning",
   "icons": [
     {
       "src": "/static/img/icons/android-chrome-192x192.png",

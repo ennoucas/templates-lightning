@@ -100,7 +100,7 @@ const webpackConfig = merge(baseWebpackConfig, {
     ]),
     // service worker caching
     new SWPrecacheWebpackPlugin({
-      cacheId: 'test-webpack-lightning',
+      cacheId: 'template-vue-lightning',
       filename: 'service-worker.js',
       staticFileGlobs: ['resource-bundles/dist.resource/**/*.{js,html,css}'],
       minify: true,
